@@ -207,6 +207,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                               ElevatedButton(
                                 style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.lightBlue,
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(15),
                                   ),
@@ -331,9 +332,9 @@ class _HomePageState extends State<HomePage> {
                           physics: const NeverScrollableScrollPhysics(),
                           gridDelegate:
                               const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 4,
+                            crossAxisCount: 3,
                             mainAxisSpacing: 30,
-                            childAspectRatio: 3,
+                            childAspectRatio: 4,
                             crossAxisSpacing: 20,
                           ),
                           children: [
@@ -384,22 +385,6 @@ class _HomePageState extends State<HomePage> {
                               },
                               child: SvgPicture.asset(
                                 "assets/svg/java-icon.svg",
-                              ),
-                            ),
-                            GestureDetector(
-                              onTap: () {
-                                _launchUrl("https://www.microsoft.com/id-id/");
-                              },
-                              child: SvgPicture.asset(
-                                "assets/svg/office-2.svg",
-                              ),
-                            ),
-                            GestureDetector(
-                              onTap: () {
-                                _launchUrl("https://www.python.org/");
-                              },
-                              child: SvgPicture.asset(
-                                "assets/svg/python-5.svg",
                               ),
                             ),
                           ],
@@ -470,6 +455,14 @@ class _HomePageState extends State<HomePage> {
                           PortfolioWidget(
                             image: "assets/png/toko-saya-mockup.png",
                             portfolioDescription: "Toko Saya",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/e-pelita-siswa-mockup.png",
+                            portfolioDescription: "",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/e-pelita-guru-mockup.png",
+                            portfolioDescription: "",
                           ),
                         ],
                       ),

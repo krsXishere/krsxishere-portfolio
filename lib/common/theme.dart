@@ -18,9 +18,9 @@ double width(BuildContext context) {
 Future downloadCV() async {
   html.AnchorElement anchorElement = html.AnchorElement(
       href:
-          "https://drive.usercontent.google.com/download?id=1XxmV-3yTqxthKMP_j6eMRAM-qVirq96V&export=download&authuser=0");
+          "https://drive.usercontent.google.com/download?id=1cSvZpTWNd04JyGNgi9TUXEOsJc_2Ivhf&export=download&authuser=0&confirm=t&uuid=5537780e-7813-42c9-84a2-f2bc5231a0a3&at=APZUnTUYwAhrnzlvjKsaes8x7_Ws:1721835354325");
   anchorElement.download =
-      "https://drive.usercontent.google.com/download?id=1XxmV-3yTqxthKMP_j6eMRAM-qVirq96V&export=download&authuser=0";
+      "https://drive.usercontent.google.com/download?id=1cSvZpTWNd04JyGNgi9TUXEOsJc_2Ivhf&export=download&authuser=0&confirm=t&uuid=5537780e-7813-42c9-84a2-f2bc5231a0a3&at=APZUnTUYwAhrnzlvjKsaes8x7_Ws:1721835354325";
   anchorElement.click();
 }
 
