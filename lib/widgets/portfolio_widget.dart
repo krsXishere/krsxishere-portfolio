@@ -19,7 +19,7 @@ class PortfolioWidget extends StatelessWidget {
           image: image,
         ),
         Padding(
-          padding: const EdgeInsets.only(bottom: 20),
+          padding: const EdgeInsets.only(bottom: 50),
           child: Align(
             alignment: Alignment.bottomCenter,
             child: Text(
@@ -28,6 +28,7 @@ class PortfolioWidget extends StatelessWidget {
                 color: white,
                 fontSize: 16,
               ),
+              textAlign: TextAlign.center,
             ),
           ),
         )

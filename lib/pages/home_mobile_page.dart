@@ -195,7 +195,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                                 ),
                               ),
                               Text(
-                                "Fullstack Developer | Flutter Developer |\nBackend Developer | Desktop .NET Developer\n2 Years Experience as a Freelancer",
+                                "Fullstack Developer | Flutter Developer |\nBackend Developer | Desktop .NET Developer\n4 Years Experience as a Freelancer",
                                 textAlign: TextAlign.left,
                                 style: primaryTextStyle.copyWith(
                                   fontSize: 14,
@@ -276,7 +276,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   SizedBox(
                     height: 300,
@@ -309,7 +309,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                     ),
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: skillsKey,
@@ -329,7 +329,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                       ),
                       SizedBox(
                         width: double.maxFinite,
-                        height: height(context) * 0.7,
+                        height: height(context) * 0.3,
                         child: GridView(
                           shrinkWrap: true,
                           physics: const NeverScrollableScrollPhysics(),
@@ -337,7 +337,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                               const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 3,
                             mainAxisSpacing: 30,
-                            childAspectRatio: 4,
+                            childAspectRatio: 2,
                             crossAxisSpacing: 20,
                           ),
                           children: [
@@ -396,7 +396,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: portfolioKey,
@@ -417,7 +417,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                       FlutterCarousel(
                         options: FlutterCarouselOptions(
                           autoPlay: true,
-                          height: 400.0,
+                          height: height(context) * 0.5,
                           showIndicator: true,
                           floatingIndicator: false,
                           slideIndicator: CircularSlideIndicator(),
@@ -461,19 +461,30 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                             portfolioDescription: "Toko Saya",
                           ),
                           PortfolioWidget(
-                            image: "assets/png/e-pelita-siswa-mockup.png",
-                            portfolioDescription: "",
+                            image: "assets/png/epel-siswa.png",
+                            portfolioDescription:
+                                "e-pelita: siswa SD-SMP\nTelah digunakan oleh Ribuan Pengguna di Play Store",
                           ),
                           PortfolioWidget(
-                            image: "assets/png/e-pelita-guru-mockup.png",
-                            portfolioDescription: "",
+                            image: "assets/png/epel-guru.png",
+                            portfolioDescription:
+                                "e-pelita: guru SD-SMP\nTelah digunakan oleh Ribuan Pengguna di Play Store",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/tb-cr-2.png",
+                            portfolioDescription: "TB CR 2: Roaster Digital",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/stone-classifier.png",
+                            portfolioDescription:
+                                "Stone Classifier: Identifikasi Jenis Batuan",
                           ),
                         ],
                       ),
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: certificateKey,
@@ -494,7 +505,7 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                       FlutterCarousel(
                         options: FlutterCarouselOptions(
                           autoPlay: true,
-                          height: 400.0,
+                          height: height(context) * 0.3,
                           showIndicator: true,
                           floatingIndicator: false,
                           slideIndicator: CircularSlideIndicator(),

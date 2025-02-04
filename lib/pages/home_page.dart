@@ -195,7 +195,7 @@ class _HomePageState extends State<HomePage> {
                                 ),
                               ),
                               Text(
-                                "Fullstack Developer | Flutter Developer |\nBackend Developer | Desktop .NET Developer\n2 Years Experience as a Freelancer",
+                                "Fullstack Developer | Flutter Developer |\nBackend Developer | Desktop .NET Developer\n4 Years Experience as a Freelancer",
                                 textAlign: TextAlign.left,
                                 style: primaryTextStyle.copyWith(
                                   fontSize: 14,
@@ -276,7 +276,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Row(
                     key: aboutKey,
@@ -307,7 +307,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: skillsKey,
@@ -393,7 +393,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: portfolioKey,
@@ -457,19 +457,30 @@ class _HomePageState extends State<HomePage> {
                             portfolioDescription: "Toko Saya",
                           ),
                           PortfolioWidget(
-                            image: "assets/png/e-pelita-siswa-mockup.png",
-                            portfolioDescription: "",
+                            image: "assets/png/epel-siswa.png",
+                            portfolioDescription:
+                                "e-pelita: siswa SD-SMP\nTelah digunakan oleh Ribuan Pengguna di Play Store",
                           ),
                           PortfolioWidget(
-                            image: "assets/png/e-pelita-guru-mockup.png",
-                            portfolioDescription: "",
+                            image: "assets/png/epel-guru.png",
+                            portfolioDescription:
+                                "e-pelita: guru SD-SMP\nTelah digunakan oleh Ribuan Pengguna di Play Store",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/tb-cr-2.png",
+                            portfolioDescription: "TB CR 2: Roaster Digital",
+                          ),
+                          PortfolioWidget(
+                            image: "assets/png/stone-classifier.png",
+                            portfolioDescription:
+                                "Stone Classifier: Identifikasi Jenis Batuan",
                           ),
                         ],
                       ),
                     ],
                   ),
                   const SizedBox(
-                    height: 200,
+                    height: 100,
                   ),
                   Column(
                     key: certificateKey,
@@ -487,7 +498,7 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       FlutterCarousel(
-                       options: FlutterCarouselOptions(
+                        options: FlutterCarouselOptions(
                           autoPlay: true,
                           height: 400.0,
                           showIndicator: true,
