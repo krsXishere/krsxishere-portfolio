@@ -411,12 +411,12 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       FlutterCarousel(
-                        options: CarouselOptions(
+                        options: FlutterCarouselOptions(
                           autoPlay: true,
                           height: 400.0,
                           showIndicator: true,
                           floatingIndicator: false,
-                          slideIndicator: const CircularSlideIndicator(),
+                          slideIndicator: CircularSlideIndicator(),
                         ),
                         items: const [
                           PortfolioWidget(
@@ -487,12 +487,12 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       FlutterCarousel(
-                        options: CarouselOptions(
+                       options: FlutterCarouselOptions(
                           autoPlay: true,
                           height: 400.0,
                           showIndicator: true,
                           floatingIndicator: false,
-                          slideIndicator: const CircularSlideIndicator(),
+                          slideIndicator: CircularSlideIndicator(),
                         ),
                         items: const [
                           CutterImageWidget(

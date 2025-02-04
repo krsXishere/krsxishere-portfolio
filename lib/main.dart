@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:krsxishere_portfolio/widgets/template_widget.dart';
-
 import 'common/theme.dart';
 import 'firebase_options.dart';
 
