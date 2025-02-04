@@ -532,6 +532,9 @@ class _HomeMobilePageState extends State<HomeMobilePage> {
                           CutterImageWidget(
                             image: "assets/png/devfest-1.png",
                           ),
+                          CutterImageWidget(
+                            image: "assets/jpeg/telepati.jpeg",
+                          ),
                         ],
                       ),
                     ],

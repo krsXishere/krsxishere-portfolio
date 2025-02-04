@@ -527,6 +527,9 @@ class _HomePageState extends State<HomePage> {
                           CutterImageWidget(
                             image: "assets/png/devfest-1.png",
                           ),
+                          CutterImageWidget(
+                            image: "assets/jpeg/telepati.jpeg",
+                          ),
                         ],
                       ),
                     ],
